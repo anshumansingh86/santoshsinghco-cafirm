@@ -4,9 +4,9 @@
 export const FIRM = {
   name: 'Santosh Singh & Co.',
   type: 'Chartered Accountants',
-  frn: '[FRN_PLACEHOLDER]',           // e.g. "015283C"
-  phone: '[PHONE_PLACEHOLDER]',       // e.g. "+91 98765 43210"
-  email: 'info@santoshsinghco.com',
+  frn: '010731C',           // e.g. "015283C"
+  phone: '+91 74155 30895',       // e.g. "+91 98765 43210"
+  email: 'santoshsinghandco@gmail.com',
   domain: 'santoshsinghco.com',
   address: {
     line1: 'Ambikapur',
@@ -39,19 +39,19 @@ export type Partner = {
 
 export const PARTNERS: Partner[] = [
   {
-    name: '[PARTNER_1_NAME]',
+    name: 'CA Santosh K. Singh',
     designation: 'Chartered Accountant',
-    membershipNo: '[PARTNER_1_MEMBERSHIP_NO]',
-    qualifications: ['[PARTNER_1_QUALIFICATIONS]'],  // e.g. ['B.Com', 'FCA']
-    practiceAreas: '[PARTNER_1_AREAS]',              // e.g. 'Audit and direct tax.'
+    membershipNo: '060524',
+    qualifications: ['B.Com FCA'],  // e.g. ['B.Com', 'FCA']
+    practiceAreas: 'Income Tax, Audits',              // e.g. 'Audit and direct tax.'
     photo: null,
   },
   {
-    name: '[PARTNER_2_NAME]',
+    name: 'CA Abhishek K. Singh',
     designation: 'Chartered Accountant',
-    membershipNo: '[PARTNER_2_MEMBERSHIP_NO]',
-    qualifications: ['[PARTNER_2_QUALIFICATIONS]'],
-    practiceAreas: '[PARTNER_2_AREAS]',
+    membershipNo: '464185',
+    qualifications: ['B.Com FCA'],
+    practiceAreas: 'Income Tax, GST',
     photo: null,
   },
 ]
